@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31552bb99d9245289632019ec445b631" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="AgriEaseDataModel.Comment" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.Employee" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.Enroll" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.Farmer" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.GreenProduct" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.Product" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgriEaseDataModel.User" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="AgriEaseDataModel.FK__Comment__FarmerI__7908F585" ManuallyRouted="false" />
+        <AssociationConnector Association="AgriEaseDataModel.FK__Employee__UserId__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="AgriEaseDataModel.FK__Farmer__UserId__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="AgriEaseDataModel.FK__GreenProd__Farme__0697FACD" ManuallyRouted="false" />
+        <AssociationConnector Association="AgriEaseDataModel.FK__Product__FarmerI__0C1BC9F9" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
